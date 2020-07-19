@@ -149,12 +149,11 @@ nav ul {
   position: absolute;
   background: #fff;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
-  width: 0;
+  width: inherit;
 }
 
-.lg-bar a:hover:after {
-  text-decoration: none;
-  width: 50px;
+.lg-bar a:hover {
+ color: #fff;
 }
 
 footer {
@@ -189,7 +188,7 @@ footer ul li {
   margin: 10px 15px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .lg-bar {
     display: none;
   }
@@ -233,6 +232,7 @@ footer ul li {
     position: relative;
     margin: 2px;
   }
+ 
   .mobile-menu::before {
     content: " ";
     display: table;
