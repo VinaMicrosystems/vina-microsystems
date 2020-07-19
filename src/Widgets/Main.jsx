@@ -13,17 +13,17 @@ const Main = () => {
             <div className="container home">
                 <div className="row">
                     <div className="col-md-7"
-                        data-aos="fade-up"
 
-                        data-aos-duration="300"
 
                     >
                         <img src={require('../Assets/img/isometrics.png')} style={{ width: "90%" }} />
                     </div>
-                    <div className="col-md-5">
+                    <div className="col-md-5"
+                        data-aos="fade-in"
+                        data-aos-duration="300"
+                    >
                         <div className="description"
-                            data-aos="fade-up"
-                            data-aos-duration="300">
+                        >
                             <h3>Software as a Service</h3>
                             <p className="idea">
                                 We work on on-demand, web based software. Enabling data and resource access from a browser on any device that's connected to the internet.
@@ -35,15 +35,12 @@ const Main = () => {
                 <Hr />
                 <div className="row">
                     <div className="col-md-5 iot"
-                        data-aos="fade-up"
-                        data-aos-delay="300"
-                        data-aos-duration="500"
+                        data-aos="fade-in"
 
+                        data-aos-duration="300"
                     >
                         <div className="description"
-                            data-aos="zoom-in"
-                            data-aos-delay="300"
-                            data-aos-duration="500"
+
                         >
                             <h3>Internet of Things</h3>
                             <p className="idea">
@@ -54,26 +51,24 @@ const Main = () => {
                         </div>
                     </div>
 
-                    <div className="col-md-7" data-aos="fade-in"
-                        data-aos-delay="300"
-                        data-aos-duration="500"
+                    <div className="col-md-7"
+
+
                         style={{ marginBottom: "25px" }}
                     >
-                        <img src={require('../Assets/img/iot.jpg')} style={{ width: "90%" }} />
+                        <img src={require('../Assets/img/iot.png')} style={{ width: "90%" }} />
                     </div>
 
                 </div>
                 <Hr />
                 <div className="row" style={{ marginTop: "35px" }}>
                     <div className="col-md-7"
-                        data-aos="fade-left"
 
-                        data-aos-duration="300"
                     >
                         <img src={require('../Assets/img/hero-image.png')} style={{ width: "90%" }} />
                     </div>
                     <div className="col-md-5"
-                        data-aos="zoom-in"
+                        data-aos="fade-in"
 
                         data-aos-duration="300"
                         style={{ marginTop: "35px" }}
@@ -93,7 +88,7 @@ const Main = () => {
                 <div className="row" style={{ paddingTop: "30px" }}>
 
                     <div className="description-bottom col-md-6 col-sm-6 "
-                        data-aos="fade-right"
+                        data-aos="fade-in"
 
                         data-aos-duration="300"
                     >
@@ -102,9 +97,7 @@ const Main = () => {
                     </div>
                     <div className="about col-md-6 col-sm-6"
 
-                        data-aos="fade-left"
 
-                        data-aos-duration="300"
 
                     >
                         <Avatar url={require('../Assets/img/Muindejk.jpeg')}
