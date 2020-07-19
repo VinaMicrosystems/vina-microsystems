@@ -26,6 +26,7 @@ const Nav = ({ url, details, name }) => {
 
                             </li>
                             <NavItem><NavLink to="/news" activeClassName="active-link">News</NavLink></NavItem>
+                            <NavItem><NavLink to="/computers" activeClassName="active-link">Computers</NavLink></NavItem>
                             <NavItem><NavLink to="/blog" activeClassName="active-link">Blog</NavLink></NavItem>
                             <NavItem><button className="contact-btn">Contact</button></NavItem>
 
@@ -49,6 +50,7 @@ const Nav = ({ url, details, name }) => {
                             style={{ display: isToggled ? "block" : "none" }}
                         >
                             <NavItem><Link to="/">Home</Link></NavItem>
+                            <NavItem><Link to="/computers">Computers</Link></NavItem>
                             <NavItem><Link to="/news">News</Link></NavItem>
                             <NavItem><Link to="/blog">Blog</Link></NavItem>
                             
